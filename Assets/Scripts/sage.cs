@@ -170,6 +170,7 @@ public class sage : MonoBehaviour
     }
     IEnumerator BackToNormalAfterDelay()
     {
+        rb.linearVelocity = Vector2.zero;
         yield return new WaitForSeconds(2f);
         isGoingBack = true;
 

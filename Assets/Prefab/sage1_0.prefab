@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5dcbfc3e49d86ea43af61f9589fb5dff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4.5
+  isDead: 0
   jett: {fileID: 0}
   idle: {fileID: 21300000, guid: 5dcbfc3e49d86ea43af61f9589fb5dff, type: 3}
   ability: {fileID: 21300000, guid: b40ecdf8f71f15c4bb2d482dcde29f39, type: 3}
